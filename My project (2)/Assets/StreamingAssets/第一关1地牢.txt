@@ -1,0 +1,22 @@
+[{
+	"max": 3,
+	"min":1,
+	"len":2,
+  	"i":1,
+	"name": ["kulou"]
+},
+{
+	"max": 5,
+	"min":3,
+	"len":3,
+  	"i":2,
+	"name": ["kulou"]
+},
+{
+	"max": 5,
+	"min":3,
+	"len":3,
+  	"i":2,
+	"name": ["kulou"]
+}
+]

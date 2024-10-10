@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d527b1a4a68ef6489f42fbd0597a4f8, type: 3}
+  m_Name: Animation set
+  m_EditorClassIdentifier: 
+  animationGlobalTransitionDuration: 0.25
+  stateAnimationBlends: []
+  playableAnimations:
+  - playableName: Dodge
+    animationPriority: 1
+    fromPlayableAnimationTransitionDuration: 0.25
+    fromPlayableAnimationTransitionOffset: 0
+    animationName: Dodge__Front
+    toPlayableAnimationTransitionDuration: 0.25
+    toPlayableAnimationTransitionOffset: 0
+  - playableName: Dodge_Front
+    animationPriority: 0
+    fromPlayableAnimationTransitionDuration: 0.25
+    fromPlayableAnimationTransitionOffset: 0
+    animationName: Dodge_Front
+    toPlayableAnimationTransitionDuration: 0.25
+    toPlayableAnimationTransitionOffset: 0
